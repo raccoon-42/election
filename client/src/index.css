@@ -1,0 +1,217 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button-default {
+  background-color: #9a0e20;
+  color: white;
+  border: 2px solid;
+  padding: 20px 40px;
+  margin: 10px;
+  font-size: 3em;
+  font-family: "Inter", sans-serif;
+  border-radius: 0px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  box-shadow: 1px 1px 5px black;
+}
+.navbox {
+  width: fit-content;
+  position: absolute;
+  height: fit-content;
+}
+/* Center the buttons */
+.button-container-top {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.navigation-button {
+  background-color: #b91c1c;
+  color: white;
+  border: 2px solid;
+  padding: 20px 40px;
+  margin: 30px;
+  font-family: "Inter", sans-serif;
+  border-radius: 0px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  box-shadow: 1px 1px 5px black;
+  display: flex;
+  width: 300px;
+  font-size: 2em;
+  color: white;
+}
+
+/* Customize the logo */
+.logo-container {
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+a:link {
+  text-decoration: none;
+}
+.logo {
+  height: auto;
+  max-height: 150px;
+  margin-right: 10px;
+}
+
+h1 {
+  font-size: 3vw;
+  margin: 0;
+  font-weight: 200;
+  font-family: "Oswald", sans-serif;
+}
+
+/* Customize the bottom bar */
+.bottom-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+/* Customize the logout button */
+.logout-button {
+  background-color: #9a0e20;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  border-radius: 0px;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  -webkit-text-stroke: 0.2px black;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+}
+
+/* Change logout button color on hover */
+.logout-button:hover {
+  background-color: #005ea3;
+}
+
+/* Customize the login message */
+.login-message {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.submit-button {
+  font-size: 16px;
+  float: left;
+}
+
+.candidate-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  max-width: 30%;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.test-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  max-width: 45%;
+  max-height: 45%;
+  margin: 30px auto;
+  padding-bottom: 50px;
+}
+
+.test-container img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.candidate-info {
+  border: 2px solid #9a0e20;
+  width: 100%;
+  margin: 30px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.candidate-info2 {
+  position: relative;
+  border: 2px solid #9a0e20;
+  position: relative;
+  margin: 30px auto;
+  padding: 20px;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+.candidate-text {
+}
+
+.vl {
+  position: -webkit-sticky;
+  margin-right: 30%;
+  margin-left: 30%;
+  border-left: 6px solid green;
+  flex-direction: column;
+  height: 300px;
+}
+
+input.checkbox-vote {
+  flex-direction: column;
+  position: relative;
+  height: 100px;
+  width: 100px;
+}
+
+.submit-button {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+
+  bottom: 30px;
+
+  background-color: #9a0e20;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  border-radius: 0px;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  -webkit-text-stroke: 0.2px black;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+}
